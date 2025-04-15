@@ -15,6 +15,8 @@ fun main() {
     box1.open()     //Access the function using class's instance
     box1.fillContents()
     box1.close()
+
+    //box1 = box2     //Here we need to make box1 as var
 }
 
 class Box {

@@ -1,6 +1,8 @@
 package kishorramani.kotlinfromscratch.ginterface
 
 //Interface
+//Interface: A shared boundary defining how things interact.
+
 //Interface - Similar to abstract class
 //There is difference between interface and abstract class
 //Interface contain abstract members and abstract function, it also can contain function with implementation

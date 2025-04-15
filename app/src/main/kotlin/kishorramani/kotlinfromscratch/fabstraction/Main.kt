@@ -1,6 +1,10 @@
 package kishorramani.kotlinfromscratch.fabstraction
 
 //Abstraction
+//Abstraction: Focusing on essential details by hiding complexity.
+
+//Inheritance is about reusing code, while abstraction is about hiding complexity.
+
 //Abstract - It's a keyword; just defining member and function without the actual implementation
 //abstract keyword is used
 //You cannot create instance of abstract class [You can create instance of open class]

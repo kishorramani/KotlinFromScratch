@@ -1,6 +1,10 @@
 package kishorramani.kotlinfromscratch.einheritance
 
 //Inheritance
+//Inheritance: Creating new classes by reusing properties and functions from existing ones.
+
+//Inheritance is about reusing code, while abstraction is about hiding complexity.
+
 //Inheritance is -
 //Deriving or creating another class from existing class;
 //This derived class will inherit property of the parent class;

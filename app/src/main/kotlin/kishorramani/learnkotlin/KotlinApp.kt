@@ -134,15 +134,19 @@ fun main() {
 
 //L9: While loop
     println("------------- L9: While loop ----------------")
+    val shoppingList1 = mutableListOf("item1", "item2")
+
     var counter = 0
-    while (counter < shoppingList.size) {
-        println(shoppingList[counter])
+    while (counter < shoppingList1.size) {
+        println(shoppingList1[counter])
         counter++
     }
 
 //L10: For loop
     println("------------- L10: for loop ----------------")
-    for (item in shoppingList) {
+    val shoppingList2 = mutableListOf("item1", "item2", "item3")
+
+    for (item in shoppingList2) {
         println("shopping list item: $item")
     }
 
@@ -360,7 +364,7 @@ open class Animal(name: String, val legCount: Int = 4) {
 
     fun myName() {
 //        println("My name is $name")     //name gives error because it's not initialize
-        print("I am animal")
+        println("I am animal")
     }
 }
 
